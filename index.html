@@ -1,2 +1,56 @@
-<meta http-equiv="refresh" content="0; url=https://270a478d2712.ngrok-free.app/ui              ">
-<p>Mengarahkan ke dashboard... Jika tidak otomatis, klik <a href="https://270a478d2712.ngrok-free.app/ui">di sini</a>.</p>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect ke Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 20%;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        // Ganti URL di sini setiap kali ngrok berubah
+        const targetUrl = "https://PASTE-LINK-NGROK-DISINI.ngrok-free.app/ui";
+
+        // Auto redirect setelah 1 detik
+        setTimeout(() => {
+            window.location.href = targetUrl;
+        }, 1000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 Mengarahkan ke Dashboard...</h1>
+        <p>Jika tidak otomatis, klik tombol di bawah:</p>
+        <a href="https://PASTE-LINK-NGROK-DISINI.ngrok-free.app/ui" class="btn">Buka Dashboard</a>
+    </div>
+</body>
+</html>
